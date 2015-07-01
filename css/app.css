@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header {
+    padding: 20px;
+    background-color: #35C0EF;
+}
+.say-btn{
+	background-color: #fff;
+	font-size: 18px;
+	float: right;
+}
+.navigation {
+    box-shadow: 1px 2px 1px #ccc;
+}
+.navigation ul{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.navigation ul li{
+	display: inline-table;
+	list-style: none;
+	text-transform: capitalize;
+	margin: 0px 40px;
+	padding: 12px;
+	color: #35C0EF;
+	font-size: 16px;
+	border-bottom: 3px solid transparent;
+}
+.active{
+	border-bottom: 3px solid #35C0EF !important; 
+}
+.name{
+	 /*margin-top: 10px;*/
+    width: 70%;
+    margin: 12px 30%;
+}
+.letter{
+	display: inline-block;
+	width: 8%;
+	float: left;
+}
+.letter img{
+	width: 100%;
+}
+.caption {
+    clear: both;
+    font-size: 19px;
+    width: 50%;
+    text-align: center;
+}
+.main-wrapper {
+    background-color: #35C0EF;
+    position: relative;
+    top: 250px;
+    width: 100%;
+}
+.avatar-hold {
+     position: absolute; 
+    margin-top: -220px;
+    margin-left: 36%;
+}
+.cont h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+.port-item{
+	display: inline-block;
+	margin: 35px;
+}
+.port-title{
+	padding: 10px 10px;
+	background-color: #fff;
+	text-align: center;
+
+}
+.cont {
+    text-align: center;
+    margin-top: 480px;
+}
+footer {
+    margin-top: 260px;
+    text-align: right;
+    font-size: 40px;
+}
+.contact a{
+	margin: 10px;
+	text-decoration: none;
+	color: #35C0EF;
+}
